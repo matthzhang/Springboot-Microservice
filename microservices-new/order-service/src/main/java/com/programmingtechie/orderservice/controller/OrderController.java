@@ -20,3 +20,15 @@ public class OrderController{
         return "Order placed successfully";
     }
 }
+
+// body field for postman when testing:
+
+// {
+//     "orderLineItemsDtoList":[
+//         {
+//             "skuCode":"iphone_13",
+//             "price":1200,
+//             "quantity":1
+//         }
+//     ]
+// }
